@@ -126,7 +126,6 @@ class mAP_score():
             #print(ground_truth_data)
             for obj in ground_truth_data:
                 # look for a class_name match
-                kind = obj['kind']
                 #print('kind of face', type(kind))
                 if obj["class_id"] == class_id:
                     # print(bb)
@@ -143,6 +142,7 @@ class mAP_score():
                         ov = iw * ih / ua
                         
                         if ov > ovmax:
+                            kind = obj['kind']
                             ovmax = ov
                             gt_match = obj
 

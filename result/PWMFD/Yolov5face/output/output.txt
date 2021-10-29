@@ -12,4 +12,4 @@ face: 1830
 
 # Number of detected objects per class
 face: 1955 (tp:1814, fp:141)
-{'0': 793, '1': 975, '2': 46}
+{'0': 787, '1': 981, '2': 46}
