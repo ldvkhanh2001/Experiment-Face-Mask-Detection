@@ -42,12 +42,12 @@ Result on testing set of PWMFD:
 
 ## How to run<a name="run"></a>
 ### Install requirements 
-* All requirement packages are included in requirement.txt
+* All requirement packages are included in requirements.txt
 * To clone the repository and install requirement packages, run the script below
 ```bash
 git clone https://github.com/ldvkhanh2001/Experiment-Face-Mask-Detection
 cd Experiment-Face-Mask-Detection
-pip install requirement.txt
+pip install requirements.txt
 ```
 ### Evaluation
 1. Download testing set of [MAFA](https://www.kaggle.com/rahulmangalampalli/mafa-data) and [PWMFD](https://github.com/ethancvaa/Properly-Wearing-Masked-Detect-Dataset), then store them in path `/data/<dataset>/images`
