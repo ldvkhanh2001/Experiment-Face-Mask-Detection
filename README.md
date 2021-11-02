@@ -5,6 +5,7 @@
 3. [Method](#method)
 4. [Result](#result)
 5. [How to run](#run)
+6. [Authors](#author)
 
 ## Introduction<a name="introduction"></a>
 In the COVID-19 pandemic, wearing the mask is an effective and economical measure to prevent the spread of the virus, which led to the special concern for the face masked detection ability of the machine. Regardless of the topicality of that task, face detection with various occlusion degrees has been interested for several years, when older and smaller benchmark datasets for face detection like [FDBD](http://vis-www.cs.umass.edu/fddb/index.html) or [AFW](https://paperswithcode.com/dataset/afw) were addressed mostly by state-of-the-art models. The contrast of the two tasks is that the first one ( or face masked detection) focus on detecting the bounding box of the faces and attempt to classify whether those faces are wearing the mask or not, or even wearing in the incorrect way, while the second one ( or masked face detection) just try to detect which region in the image contains a face, ignore the type of occlusion. As we can see, the second task creates a base stage for the first one and also deals with various facial problems as face recognition, emotion recognition, face alignment, etc. For that reason, the scope of our project is that just perform experiments that inference recent state-of-the-art models like [MTCNN](https://github.com/ipazc/mtcnn), [SCRFD](https://github.com/deepinsight/insightface/tree/master/detection/scrfd), [RetinaFace](https://github.com/serengil/retinaface), and [Yolov5Face](https://github.com/deepcam-cn/yolov5-face) on the face mask dataset.
@@ -65,6 +66,10 @@ python evaluate/YOLOv5Face/yolov5-face/Yolov5Face.py
 ```
 5. Finally, run `main.py` to evaluate all models on both dataset.
 
-
+## Authors<a name="authors"></a>
+```
+Khanh Le Dinh Viet: vietkhanh.ld@gmail.com
+Khiem Le Ha: khiemle.va@gmail.com
+```
 
 
