@@ -64,7 +64,7 @@ python evaluate/<model>.py
 ```
 python evaluate/YOLOv5Face/yolov5-face/Yolov5Face.py
 ```
-5. Finally, run `main.py` to evaluate all models on both dataset.
+5. Finally, run `main.py` to evaluate all models on both two datasets.
 
 ## Authors<a name="authors"></a>
 ```
