@@ -25,21 +25,21 @@ As presented above, our experiments are executed on pretrained face detection mo
 Although our models do not classify what kind of detected face, we also count the detected objects followed by the original ground truth to figure out performance of these models on each type of facial occlusion.
 
 Result on testing set of MAFA:
-| Model      | Masked  | Unmasked |Invalid face|
-| ---------- |:-------:| :--------:| :----------:|
-| MTCNN      |  4,497  |    816   |     733    |
-| SCRFD      |  5,735  |    863   |   1,202    |
-| RetinaFace |  5,895  |    861   |   1,279    |
-| Yolov5Face |   5,971 |    877   |   1,334    |
+| Model      | Masked  | Unmasked |Invalid face| False Positive |
+| ---------- |:-------:| :--------:| :----------:|:------------:|
+| MTCNN      |  4,497  |    816   |     733    |  1797          |
+| SCRFD      |  5,735  |    863   |   1,202    | 1689           |
+| RetinaFace |  5,895  |    861   |   1,279    | 2853  
+| Yolov5Face |   5,971 |    877   |   1,334    |  2321  
 
 
 Result on testing set of PWMFD:
-| Model      | Masked  | Unmasked |Incorrect masked|
-| ---------- |:-------:| :--------:| :----------:|
-| MTCNN      |   877   |   770    |    41      |
-| SCRFD      |   928   |   641    |    46      |
-| RetinaFace |   877   |   774    |    41      |
-| Yolov5Face |   981   |   787    |    46      |
+| Model      | Masked  | Unmasked |Incorrect masked|False Positive |
+| ---------- |:-------:| :--------:| :----------:|:---------------:|
+| MTCNN      |   877   |   770    |    41      |      110        |
+| SCRFD      |   928   |   641    |    46      |      54         |
+| RetinaFace |   877   |   774    |    41      |      238       |
+| Yolov5Face |   981   |   787    |    46      |        141     |
 
 ## How to run<a name="run"></a>
 ### Install requirements 
