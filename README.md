@@ -69,7 +69,7 @@ python evaluate/YOLOv5Face/yolov5-face/Yolov5Face.py
 ## Authors<a name="authors"></a>
 ```
 Khanh Le Dinh Viet: vietkhanh.ld@gmail.com
-Khiem Le Ha: khiemle.va@gmail.com
+Khiem Le Ha: hakhiem.va@gmail.com
 ```
 
 
